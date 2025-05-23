@@ -1,0 +1,13 @@
+// changed default variables
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+//custom variables
+$custom-colors: (
+    "light2": #522192
+); 
+
+$theme-colors: map-merge($custom-colors, $theme-colors);
+
+@import '../node_modules/bootstrap/scss/bootstrap'; 

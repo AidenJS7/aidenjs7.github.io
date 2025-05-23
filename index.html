@@ -1,20 +1,95 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTML Forms</title>
-</head>
-<body>
-    <h1>HTML Forms</h1>
+<html lang="en">
 
-    <form>
-        <label for="username">enter username:</label>
-        <input type="text" id="username">
-        <br><br>
-        <label for="email">enter email:</label>
-        <input type="email" id="email">
-        <br><br>
-        <label for="password">password</label>
-        <input type="password" id="password">
-    </form>
-</body>    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/main-min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
+  <title>Aiden's Portfolio</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-xxl">
+      <div class="col-10">
+        <a href="#portfolio" class="navbar-brand">
+          <span class="fw-bold text-tertiary">
+            <img src='/Assets/logo.png' alt="Logo" width="30" height="30"
+              class="d-inline-block align-text-top">Portfolio
+          </span>
+        </a>
+      </div>
+      <a class="btn btn-success" href="#portfolio" role="button">About</a>
+      <a class="btn btn-dark" href="#contact" role="button">Contact</a>
+    </div>
+  </nav>
+
+  <!-- about -->
+  <section id="about" class="bg-light2">
+    <div class="container-lg">
+      <div class="text-left">
+        <h1>Aiden Schmidt</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- case studies -->
+  <section id="case-studies" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+        <h1>My Projects</h1>
+      </div>
+      <div class="row my-5 align-items-center justify-content-center">
+        <div class="col-10 col-lg-5">
+          <div class="card">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Project 1</h4>
+              <img src="/Assets/service-image.jpg" class="card-img-top px-4" alt="Service Website">
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-5">
+          <div class="card">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Project 2</h4>
+              <img src="/Assets/game-image.jpg" class="card-img-top px-4" alt="Service Website">
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 align-items-center justify-content-center">
+        <div class="col-10 col-lg-5">
+          <div class="card">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Project 3</h4>
+              <img src="/Assets/e-commerce-image.jpg" class="card-img-top px-4" alt="Service Website">
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-5">
+          <div class="card">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Project 4</h4>
+              <img src="/Assets/sports-image.jpg" class="card-img-top px-4" alt="Service Website">
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section id="contact"></section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
